@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e029ccb-4c54-470f-ac04-118e27ea8953" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontEnd/src/AddBookItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontEnd/src/BookItemList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/AddFoodItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/EditFoodItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/EditBookItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/FoodItemList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontEnd" />
+  </component>
+  <component name="ProjectId" id="1Vt2kUEaZwiMFZd5kQrmGeH6Pa6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e029ccb-4c54-470f-ac04-118e27ea8953" name="Default Changelist" comment="" />
+      <created>1578058213114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578058213114</updated>
+      <workItem from="1578058215588" duration="1615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="330" y="108" width="863" height="606" key="find.popup" timestamp="1578059658456">
+      <screen x="0" y="27" width="1360" height="704" />
+    </state>
+    <state x="330" y="108" width="863" height="606" key="find.popup/0.27.1360.704@0.27.1360.704" timestamp="1578059658456" />
+  </component>
+</project>
