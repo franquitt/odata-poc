@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e029ccb-4c54-470f-ac04-118e27ea8953" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="8e029ccb-4c54-470f-ac04-118e27ea8953" name="Default Changelist" comment="dockerizado el front y agregado el delete">
+      <change afterPath="$PROJECT_DIR$/frontEnd/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontEnd/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontEnd/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendOdata/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backendOdata/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontEnd/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +53,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578058213114</updated>
-      <workItem from="1578058215588" duration="5714000" />
+      <workItem from="1578058215588" duration="11022000" />
     </task>
+    <task id="LOCAL-00001" summary="fix .idea VCS">
+      <created>1578064080002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578064080003</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,11 +79,24 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix .idea VCS" />
+    <MESSAGE value="dockerizado el front y agregado el delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="dockerizado el front y agregado el delete" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="245" y="27" width="860" height="704" key="CommitChangelistDialog2" timestamp="1578064044843">
+    <state x="362" y="183" width="626" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578065691357">
       <screen x="0" y="27" width="1360" height="704" />
     </state>
-    <state x="245" y="27" width="860" height="704" key="CommitChangelistDialog2/0.27.1360.704@0.27.1360.704" timestamp="1578064044843" />
+    <state x="362" y="183" width="626" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1360.704@0.27.1360.704" timestamp="1578065691357" />
+    <state x="206" y="27" width="860" height="704" key="CommitChangelistDialog2" timestamp="1578069340674">
+      <screen x="0" y="27" width="1360" height="704" />
+    </state>
+    <state x="206" y="27" width="860" height="704" key="CommitChangelistDialog2/0.27.1360.704@0.27.1360.704" timestamp="1578069340674" />
+    <state x="126" y="82" width="1088" height="593" key="DiffContextDialog" timestamp="1578064063627">
+      <screen x="0" y="27" width="1360" height="704" />
+    </state>
+    <state x="126" y="82" width="1088" height="593" key="DiffContextDialog/0.27.1360.704@0.27.1360.704" timestamp="1578064063627" />
     <state x="463" y="136" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578061543463">
       <screen x="0" y="27" width="1360" height="704" />
     </state>

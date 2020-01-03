@@ -1,4 +1,2 @@
-
-# FoodReca
-A React project that teaches how make CRUD applications.
+Binding proyecto en puerto 3000
 

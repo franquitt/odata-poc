@@ -47,7 +47,7 @@ class App extends React.Component {
     }
 
     addBookItem(event) {
-        event.preventDefault()
+        event.preventDefault();
         if (!this.state.book) return;
         const bookItem = {
             book: this.state.book,
@@ -62,7 +62,7 @@ class App extends React.Component {
             body: JSON.stringify(bookItem),
         }).then(res => res.json())
             .then((data) => {
-                console.log(data)
+                console.log(data);
 
                 this.setState({
                     book: '',
@@ -77,11 +77,18 @@ class App extends React.Component {
     }
 
     deleteBookItem(id) {
-        const bookItems = this.state.bookItems.filter(item => item.id !== id);
-        this.setState({bookItems: bookItems});
-        if (this.state.editing === true) {
-            window.location.reload();
-        }
+        fetch(this.host + '/books(' + id + ')', {
+            method: 'DELETE',
+            headers: {'Content-Type': 'application/json'}
+        }).then(() => {
+                const bookItems = this.state.bookItems.filter(item => item.id !== id);
+                this.setState({bookItems: bookItems});
+                if (this.state.editing === true) {
+                    window.location.reload();
+                }
+            })
+            .catch(console.log);
+
     }
 
     editBookItem(bookItem) {
@@ -101,7 +108,7 @@ class App extends React.Component {
         }
         this.setState({
             editing: value
-        })
+        });
 
         if (!value) {
             this.setState({book: '', cost: '', description: ''});
@@ -119,12 +126,12 @@ class App extends React.Component {
             description: updatedDesc
         };
         const updatedBookItem = Object.assign({}, this.state.bookItem, updatedObj);
-        fetch(this.host + '/books('+this.state.bookItem.id+')', {
+        fetch(this.host + '/books(' + this.state.bookItem.id + ')', {
             method: 'PUT',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(updatedObj),
         }).then(res => res.json())
-            .then(()=> {
+            .then(() => {
                 const bookItems = this.state.bookItems.map((bookItem) => (bookItem.id === this.state.bookItem.id ? updatedBookItem : bookItem));
                 this.setState({book: '', cost: '', description: '', bookItems: bookItems});
             })
