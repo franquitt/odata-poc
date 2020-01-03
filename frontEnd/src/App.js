@@ -12,6 +12,7 @@ class App extends React.Component {
       userId: 1,
       book: '',
       cost: '',
+      description: '',
       bookItem: {},
       bookItems: [],
       editing: false
@@ -42,14 +43,15 @@ class App extends React.Component {
       id: this.state.bookItems.length + 1,
       book: this.state.book,
       cost: this.state.cost,
-      userId: this.state.userId,
-      enStock: this.state.enStock
+      description: this.state.description,
+      userId: this.state.userId
     };
 
     console.log(bookItem);
     this.setState({
       book: '',
       cost: '',
+      description: '',
       bookItem: bookItem,
       bookItems: [...this.state.bookItems, bookItem]
     })
@@ -69,6 +71,7 @@ class App extends React.Component {
     this.setState({
       book:bookItem.book,
       cost:bookItem.cost,
+      description:bookItem.description,
       bookItem: bookItem
     });
     console.log(bookItem);
@@ -79,35 +82,34 @@ class App extends React.Component {
     this.setState({
       editing: value
     })
+
+    if(!value){
+      this.setState({ book:'', cost: '', description: ''});
+    }
   }
 
   updateBookItem(event) {
     event.preventDefault();
     const updatedBook = this.state.book;
     const updatedCost = this.state.cost;
-    const updatedBookItem = Object.assign({}, this.state.bookItem, { book: updatedBook, cost: updatedCost })
+    const updatedDesc = this.state.description;
+    const updatedBookItem = Object.assign({}, this.state.bookItem, { book: updatedBook, cost: updatedCost, description: updatedDesc })
     const bookItems = this.state.bookItems.map((bookItem) => (bookItem.id === this.state.bookItem.id ? updatedBookItem : bookItem));
-    this.setState({ book:'', cost: '', bookItems: bookItems});
+    this.setState({ book:'', cost: '', description: '', bookItems: bookItems});
   }
 
   render() {
     const { cost, book, bookItems, editing } = this.state;
       return (
         <div className="App">
-          <div className="row App-main">
-            <BookItemList
-              bookItems= {bookItems}
-              deleteBookItem={this.deleteBookItem}
-              boughtBookItem={this.boughtBookItem}
-              editBookItem={this.editBookItem}
-            />
-          </div>
+
           <div className="row App-main">
           { 
             editing  ? (
             <EditBookItem
              book={this.state.book}
-             cost={this.state.cost} 
+             cost={this.state.cost}
+             description={this.state.description}
              handleInputChange={this.handleInputChange}
              setEditing={this.setEditing}
              updateBookItem={this.updateBookItem}
@@ -115,12 +117,21 @@ class App extends React.Component {
             ) : (
             <AddBookItem
               book={this.state.book}
-              cost={this.state.cost} 
+              cost={this.state.cost}
+              description={this.state.description}
               handleInputChange={this.handleInputChange} 
               addBookItem={this.addBookItem}
             />
             )
           }
+          </div>
+          <div className="row App-main">
+            <BookItemList
+                bookItems= {bookItems}
+                deleteBookItem={this.deleteBookItem}
+                boughtBookItem={this.boughtBookItem}
+                editBookItem={this.editBookItem}
+            />
           </div>
         </div>
       );

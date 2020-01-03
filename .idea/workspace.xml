@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e029ccb-4c54-470f-ac04-118e27ea8953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontEnd/src/AddBookItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontEnd/src/BookItemList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/AddFoodItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/EditFoodItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/EditBookItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/FoodItemList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontEnd" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Vt2kUEaZwiMFZd5kQrmGeH6Pa6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,6 +24,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -52,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578058213114</updated>
-      <workItem from="1578058215588" duration="1615000" />
+      <workItem from="1578058215588" duration="3179000" />
     </task>
     <servers />
   </component>
@@ -60,6 +56,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="245" y="27" width="860" height="704" key="CommitChangelistDialog2" timestamp="1578061549050">
+      <screen x="0" y="27" width="1360" height="704" />
+    </state>
+    <state x="245" y="27" width="860" height="704" key="CommitChangelistDialog2/0.27.1360.704@0.27.1360.704" timestamp="1578061549050" />
+    <state x="463" y="136" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578061543463">
+      <screen x="0" y="27" width="1360" height="704" />
+    </state>
+    <state x="463" y="136" width="424" height="484" key="FileChooserDialogImpl/0.27.1360.704@0.27.1360.704" timestamp="1578061543463" />
+    <state x="169" y="27" width="1012" height="704" key="SettingsEditor" timestamp="1578060541088">
+      <screen x="0" y="27" width="1360" height="704" />
+    </state>
+    <state x="169" y="27" width="1012" height="704" key="SettingsEditor/0.27.1360.704@0.27.1360.704" timestamp="1578060541088" />
     <state x="330" y="108" width="863" height="606" key="find.popup" timestamp="1578059658456">
       <screen x="0" y="27" width="1360" height="704" />
     </state>
