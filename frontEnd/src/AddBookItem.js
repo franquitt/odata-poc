@@ -2,7 +2,7 @@ import React from 'react'
 
 const AddBookItem = props => {
     return (
-        <form onSubmit={props.addBookItem} autocomplete="off">
+        <form onSubmit={props.addBookItem} autoComplete="off">
             <div className="form-group">
                 <label>Título</label>
                 <input type="text" className="form-control" name="book" value={props.book}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const EditBookItem = props => {
     return (
-        <form autocomplete="off">
+        <form autoComplete="off">
             <div className="form-group">
                 <label>Título</label>
                 <input type="text" className="form-control" name="book" value={props.book}

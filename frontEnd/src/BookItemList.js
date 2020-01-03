@@ -5,7 +5,6 @@ import React from 'react';
       <table className="table table-bordered">
         <thead>
           <tr>
-            <th>Id</th>
             <th>Título</th>
             <th>Precio</th>
             <th>Acciones</th>
@@ -15,7 +14,6 @@ import React from 'react';
             {
                 props.bookItems.map((bookItem) => (
                     <tr key={bookItem.id}>
-                      <td>{ bookItem.id }</td>
                       <td>{ bookItem.book }</td>
                       <td>{ bookItem.cost }</td>
                       <td>
