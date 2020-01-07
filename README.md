@@ -9,3 +9,8 @@ Los contenedores docker van a brindar 3 servicios en los siguientes puertos
 - http://localhost:3000/books  => API Endpoint de Odata
 - http://localhost:3001        => MongoDB
 - http://localhost:3002        => FrontEnd
+
+# Tools
+- node-odata: https://github.com/TossShinHwa/node-odata
+- react
+- docker
