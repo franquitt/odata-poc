@@ -4,6 +4,7 @@ en react.
 
 ### Tecnologías:
 - NodeJS
+- MongoDB
 - node-odata: https://github.com/TossShinHwa/node-odata
 - react
 
